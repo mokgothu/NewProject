@@ -1,0 +1,25 @@
+h3{
+color: yellow;
+}
+
+#heading{
+    color: pink;
+}
+
+.container{
+    display: flex;
+    padding-left:10%;
+}
+.box{
+    width: 200px;
+    height: 300px;
+    border:black solid 1px;
+    display: block;
+    padding-left: 5%;
+    margin-left: 10%;
+
+}
+
+#firstbox{
+    background-color: blue;
+}

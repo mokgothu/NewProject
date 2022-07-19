@@ -1,0 +1,199 @@
+
+body{
+  background-color: aqua;
+}
+  header h1{
+   font-weight: bold;
+   font-size: 70px;
+   margin-left: 100px;
+
+    }
+
+    header h1 b{
+      color:orange;
+    }
+    
+    .Container{
+      display:flex;
+      border-radius: 35px;
+      border:solid 0px;
+      padding-left: 100px;
+      height: 1000px;
+      position: absolute;
+    
+    }
+      #firstbox{
+    
+        width: 200px;
+        background-color:#555;
+        border: black solid 2px;
+        height: 916px;
+        padding-left: 10px;
+      } 
+        #Secondbox{
+        width: 1300px;
+        height: 900px;
+       border: solid 10px;
+       background-color: white;
+       border-color: orange;
+        
+        }
+    
+        #img1{
+          padding-left: 1300px;
+          height: 100px;
+          width: 300px;
+          margin-bottom: 20px;
+          border-radius: 35px;
+          
+        }
+  
+        .h3 books{
+        float: left;
+      
+        }
+        #img0{
+          width: 100px;
+          border-radius: 35px;
+          margin-top: -60px;
+          height: 150px;
+          margin-top: -80px;
+          padding: 50px;
+          float: left;
+        }
+        #img4{
+              width: 50px;
+              border-radius:50px;
+              height: 50px;
+              margin-top: 100px;
+              float:left;
+            }
+
+        .profile{
+               width: 150px;
+               height: 300px;
+               border-radius: 25px;
+               background-color: darkgrey;
+               padding-left: 30px;
+              }
+
+        #border1{
+
+          border-radius:35px;
+          width:300px;
+          height:90px;
+          background-color: #555;
+          float: left;
+          padding: 10px;
+        }
+
+        
+        #border{
+          border-radius: 35px;
+          width: 200;
+          height: 100;
+          float: left;
+          margin-top: 120px;
+        }
+
+        #border2{
+          border-radius: 25px;
+          width:240px;
+          height: 350px;
+          background-color:antiquewhite;
+          float: left;
+         
+        }
+
+        h2{
+          margin-bottom: 50px;
+          margin-top: 100px;
+          text-align: center;
+          font: weight 20px;
+        }
+
+        ul li{
+          list-style: none;
+          font-weight: bold;
+      
+        }
+        ul li a{
+           text-decoration: none;
+           /* search fild*/
+        }
+        
+          /* style the search field*/
+          form.search input{
+           padding: 10px;
+           font-size:17px;
+           border: 1px solid grey;
+           float:left;
+           margin-left: 800px; 
+           background: f1f1f1;
+          
+         }
+       
+         /* style the submit button */
+         form.search button{
+           float: left;
+           padding: 10px;
+           cursor: pointer;
+         
+         }
+         .btn-group button{
+           border-radius: 35px;
+           width:100px;
+           height: 30px;
+           float: left;
+           border: 1px solid grey;
+           padding-left: 10px;
+         }
+        
+
+         .btn4{
+         text-align:center; 
+         }
+
+       
+         /* Full-width inputs*/
+         input[type=text] input[type=password] {
+           width: 100%;
+           padding: 12px 20px  center;
+           margin: 10px;
+           display:inline-block;
+           box-sizing:content-box;
+         }
+
+         /* Add a hover effect for buttons*/
+         .imgcontainer{
+           text-align: center;
+           margin: 24px 0 12px 0;
+         }
+
+          /* Add padding to containers */
+         .container {
+         padding: 25px;
+         }
+
+         /* The "Forgot password" text */
+         span.psw {
+         float: right;
+         padding-top: 16px;
+         }
+
+         /* Change styles for span and cancel button on extra small screens */
+         @media screen and (max-width: 300px) {
+         span.psw {
+          display: block;
+         float: none;
+         }
+          .cancelbtn {
+         width: 100%;
+         }
+        }
+
+
+  
+
+
+         
